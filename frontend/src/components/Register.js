@@ -27,7 +27,7 @@ function Register() {
       }
       // Send the user credentials to the backend server
       const response = await axios.post(
-        "http://localhost:5000/api/register",
+        "https://facebook-backend-t6mv.onrender.com/api/register",
         credentials
       );
       enqueueSnackbar(response.data.message, { variant: "success" });
