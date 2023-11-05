@@ -1,0 +1,65 @@
+.face{
+    color: rgb(55, 55, 255);
+    font-family: inherit;
+    font-size:50px;
+    font-weight: bolder;
+    opacity: 75%;
+
+}
+.Previous_login{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    padding-top: 10px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.click{
+    color: #606770;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 18px;
+}
+.nam_e{
+    text-align: center;
+    color: grey;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+img{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    cursor: pointer;
+}
+img:hover{
+
+}
+.add_acc{
+    display: flex;
+    gap: 10px;
+}
+.plusimg{
+    width: 20px;
+    background-color: blue;
+}
+.icon_section{
+    align-items: center;
+    background-color: #f5f6f7;
+    border-top-left-radius: 4px;
+    
+    height: 160px;
+    justify-content: center;
+    width: 160px;
+}
+.icon{
+    width: 50px;
+}
+

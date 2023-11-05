@@ -1,0 +1,74 @@
+.Log {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 400px;
+}
+input {
+  border: 1px solid #dddfe2;
+  color: #1d2129;
+  outline: none;
+  padding: 10px;
+  border-radius: 8px;
+  height: 50px;
+  font-size: 17px;
+}
+
+.inputError {
+  font-size: 0.8rem;
+  height: 0.5rem;
+  margin-top: 0.2rem;
+  color: rgb(195, 18, 18);
+}
+.btn_log {
+  background-color: #1877f2;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  color: #fff;
+  font-size: 20px;
+  line-height: 20px;
+}
+.btn_logout {
+  background-color: rgb(159, 22, 22);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  margin: auto;
+  padding: 0.4rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.forget {
+  border: none;
+  background: none;
+  color: #1515ff;
+}
+.create {
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  line-height: 40px;
+  background-color: #42b72a;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+.last {
+  border-top: none;
+  color: #1c1e21;
+  font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.text-center {
+  text-align: center;
+  margin-bottom: 0.8rem;
+}
